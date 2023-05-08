@@ -21,7 +21,7 @@ const Form = props => {
           <input name='url' type='text' />
           <button type ="submit">GO!</button>
         </label>
-        <label>
+        <label className="methods">
           <span id="get">GET </span>
           <span id="post">POST </span>
           <span id="put">PUT </span>
