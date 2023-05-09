@@ -20,6 +20,7 @@ body {
   }
 
   footer {
+    height: 5%;
     opacity: 0.9;
     background: darken($backgroundColor, 50);
     border-top: 1px solid #eee;
@@ -28,6 +29,7 @@ body {
   }
 
   header {
+    height: 12%;
     opacity: 0.8;
     background: darken(red, 75);
     border-bottom: 1px solid #eee;
