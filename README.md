@@ -103,7 +103,8 @@ Attempt Testing!
 
 ## Submission
 
-![Resty](https://github.com/Ryanb021/resty/assets/120413183/ae0d8412-bc8a-406c-971f-75ec98920f7f)
+![Resty](https://github.com/Ryanb021/resty/assets/120413183/70fdb071-47c9-4689-9ff8-0c39de016442)
+
 
 
 
