@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background: $backgroundColor;
+  background: yellow;
   height: 100%;
 
   #root {
@@ -24,7 +24,7 @@ body {
   }
 
   header {
-    background: darken($backgroundColor, 75);
+    background: darken(red, 75);
     border-bottom: 1px solid #eee;
     color: #eee;
     padding: 0;
