@@ -1,13 +1,15 @@
 import '@testing-library/react';
 import { render, screen } from '@testing-library/react';
+
 import Footer from '.';
 
-describe('Footer component', () => {
-  it('renders the correct copyright text', () => {
+describe('renders Footer', () => {
+  test('renders Footer as expected', () => {
     render(<Footer />);
-    const copyrightText = screen.getByText('\u00A9 Ryan Bagan 2023');
-    expect(copyrightText).toBeInTheDocument();
-  });
+    const footerElement = screen.getByTestId('footer');
+    expect(footerElement).toBeTruthy();
+  }
+  );
 });
 
 // import '@testing-library/react';

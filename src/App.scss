@@ -11,6 +11,8 @@ body {
   background-image: url(../public/Pikachu5.png);
   background-position: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100%;
 
   #root {
