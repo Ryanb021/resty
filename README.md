@@ -102,3 +102,6 @@ Attempt Testing!
 - Import `{ fireEvent, render, screen }` from the React Testing Library to confirm behavior when change and/or click events occur.  See [Documentation](https://testing-library.com/docs/react-testing-library/cheatsheet) as necessary. Examples will soon be given in lecture. 
 
 ## Submission
+
+![Resty](https://user-images.githubusercontent.com/120413183/237006406-e70b8294-b4e6-487e-aa59-f36faad1a661.png)
+
