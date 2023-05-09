@@ -103,5 +103,6 @@ Attempt Testing!
 
 ## Submission
 
-![Resty](https://user-images.githubusercontent.com/120413183/237006406-e70b8294-b4e6-487e-aa59-f36faad1a661.png)
+![Resty](https://github.com/Ryanb021/resty/assets/120413183/ee759601-1c6e-4f72-87dd-b13181b3298e)
+
 
