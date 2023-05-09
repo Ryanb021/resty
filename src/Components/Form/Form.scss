@@ -16,10 +16,11 @@ form {
         cursor: pointer;
         margin-right: 1rem;
         padding: .25rem .5rem;
-        background: #fa3535;
+        background: #fa3597;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
         border-radius: 10px;
-        color: yellow;
+        color: rgb(255, 255, 255);
 
         &:hover, &.active {
           background: #409ef5;
