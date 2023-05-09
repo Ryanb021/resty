@@ -103,7 +103,16 @@ Attempt Testing!
 
 ## Submission
 
+### Day 1
 ![Resty](https://github.com/Ryanb021/resty/assets/120413183/70fdb071-47c9-4689-9ff8-0c39de016442)
+
+### Day 2
+![Resty2](https://github.com/Ryanb021/resty/assets/120413183/eb601990-1709-467e-a9b4-d0fe4ffb238a)
+
+![Resty Tests](https://github.com/Ryanb021/resty/assets/120413183/959fea53-4e90-460b-8c4d-aeb005044f8f)
+
+
+
 
 
 
