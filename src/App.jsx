@@ -52,9 +52,9 @@ const App =() => {
       <Header />
       <div>Request Method: {requestParams.method ? requestParams.method.toUpperCase() : ''}</div>
       <div>URL: {requestParams.url}</div>
-      <div>Data: {requestParams.data}</div>
       
       <Form handleApiCall={callApi} />
+      <div>Data: {requestParams.data}</div>
       <Results data={data} loading={loading} />
       <Footer />
     </>
