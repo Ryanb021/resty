@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './Form.scss';
 
 const Form = (props) => {
-  const[method, setMethod] = useState('');
+  const[method, setMethod] = useState('get');
   const[url, setUrl] = useState('');
   const[data, setData] = useState('');
 

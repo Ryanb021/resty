@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 import './App.scss';
 
@@ -32,11 +33,27 @@ const App =() => {
     }, 1000);
   }
 
+  useEffect(() => {
+    const getData = async () => {
+      if(requestParams.method && requestParams.url) {
+        setLoading(true);
+        const response = await axios(requestParams);
+        const data = response.data;
+        setData(data);
+        setLoading(false);
+      }
+    }
+
+    getData();
+  }, [requestParams]);
+
   return (
     <>
       <Header />
-      <div>Request Method: {requestParams.method}</div>
+      <div>Request Method: {requestParams.method ? requestParams.method.toUpperCase() : ''}</div>
       <div>URL: {requestParams.url}</div>
+      <div>Data: {requestParams.data}</div>
+      
       <Form handleApiCall={callApi} />
       <Results data={data} loading={loading} />
       <Footer />
