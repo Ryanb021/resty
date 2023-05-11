@@ -1,4 +1,6 @@
 import React from 'react';
+import JSONPretty from 'react-json-pretty';
+var JSONPrettyMon = require('react-json-pretty/dist/monikai');
 
 // class Results extends React.Component {
 //   render() {
@@ -10,10 +12,21 @@ import React from 'react';
 //   }
 // }
 
-const Results = props => {
+const Results = (props) => {
   return (
     <section>
-      <pre>{props.data ? JSON.stringify(props.data, undefined, 2) : null}</pre>
+      {
+        props.loading
+          ? <p>Loading...</p>
+          : <pre data-testid="json">
+            {
+              props.data
+                ? <JSONPretty data={props.data} theme={JSONPrettyMon}></JSONPretty>
+                : null
+            }
+          </pre>
+      }
+
     </section>
   );
 }
