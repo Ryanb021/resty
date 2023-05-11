@@ -111,7 +111,7 @@ Attempt Testing!
 
 ### Day 3
 
-![Resty3](https://github.com/Ryanb021/resty/assets/120413183/9fd3c398-16cf-4040-8976-ae63b060d748)
+![Resty3](https://github.com/Ryanb021/resty/assets/120413183/9173a580-b5cd-48f6-aeb7-f97de6e34bcd)
 
 ![Resty Tests](https://github.com/Ryanb021/resty/assets/120413183/959fea53-4e90-460b-8c4d-aeb005044f8f)
 
