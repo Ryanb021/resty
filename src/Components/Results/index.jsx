@@ -1,6 +1,8 @@
 import React from 'react';
 import JSONPretty from 'react-json-pretty';
+import './Results.scss';
 var JSONPrettyMon = require('react-json-pretty/dist/monikai');
+
 
 // class Results extends React.Component {
 //   render() {
