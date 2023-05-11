@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './History.scss';
 
 const History = ({ history, showHistory }) => {
   return (

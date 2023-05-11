@@ -14,7 +14,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
   #root {
     display: flex;
@@ -29,6 +31,7 @@ body {
     border-top: 1px solid #eee;
     padding: 1em 3em;
     margin: 0;
+    margin-top: auto;
   }
 
   header {
